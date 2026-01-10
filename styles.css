@@ -125,9 +125,18 @@ img {
     height: 200px;
 }
 
-.desc {
-    color: var(--muted);
-    font-size: 15px;
-    margin: 0;
+#projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-left: 160px;
+    }
+
+.project-card{
+    width: 200px;
+    height: 400px;
+}
+
+.project-text{
     color: white;
 }
