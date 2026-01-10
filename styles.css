@@ -84,18 +84,15 @@ button:hover{
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 22px;
+    margin-left: 100px;
     }
 
 .card {
     position: relative;
-    background:
-    radial-gradient(180px 120px at 15% 15%, rgba(103,231,210,.08), transparent 60%),
-    radial-gradient(220px 120px at 85% 85%, rgba(103,231,210,.06), transparent 60%),
-    var(--card);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
+    width: 200px;
+    height: 200px;
     padding: 24px 22px;
     border: 2px solid turquoise;
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
@@ -123,11 +120,9 @@ button:hover{
     margin-bottom: 12px;
 }
 
-.title {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: .01em;
-    color: white;
+img {
+    width: 200px;
+    height: 200px;
 }
 
 .desc {
